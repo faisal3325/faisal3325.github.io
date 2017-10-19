@@ -1,0 +1,49 @@
+body    {
+    background-color: #2f2f2f !important;
+}
+
+a   {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+nav {
+    margin-left: 2vh;
+    margin-right: 1vh;
+    text-align: center;
+    display: table-cell !important;
+    vertical-align: middle;
+}
+
+#particles-js{
+    position:fixed;
+    width:100%;
+    height:100%;
+    z-index:-1;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0
+}
+
+#width_fixed    {
+    max-width: fit-content;
+}
+
+.sidebar    {
+    display: table !important;
+    height: -moz-available;
+    background-color: black;
+    height: -webkit-fill-available;
+    width: fit-content;
+}
+
+.xlarge {
+    font-size: 24px !important; 
+}
+
+.icon {
+    margin-bottom: 2vh;
+    width: 100%;
+    height: auto;
+}
